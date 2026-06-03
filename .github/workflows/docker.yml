@@ -3,7 +3,7 @@ name: Build, scan and publish Docker image
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 permissions:
